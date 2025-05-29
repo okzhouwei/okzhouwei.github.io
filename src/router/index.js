@@ -15,6 +15,16 @@ const routes = [
     name: "color",
     component: () => import("../views/ColorView.vue"),
   },
+  {
+    path: "/tag",
+    name: "tag",
+    component: () => import("../views/TagView.vue"),
+  },
+  {
+    path: "/progress",
+    name: "progress",
+    component: () => import("../views/ProgressView.vue"),
+  },
 ];
 
 const router = new VueRouter({
